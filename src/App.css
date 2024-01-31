@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body .login {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  margin: 5px;
+  background-color: rgb(16, 13, 9);
+  gap: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  width: 70%;
+  border: 0px;
+  height: 30px;
+  border-radius: 2px;
+  outline-width: 1px;
+  outline-style: solid;
+}
+.headerLogin {
+  color: rgb(143, 88, 182);
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 5px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 50vh;
+  border-radius: 5px;
+  background-color: white;
+
+  justify-content: start;
+  align-items: center;
+}
+.image-custom {
+  width: 100%;
+
+  height: 70%;
+  border-radius: 10px;
+}
+.image-customs {
+  width: 80vw;
+
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.showContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  border-radius: 10px;
+  background-color: cornsilk;
+}
+.showContainers {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: cornsilk;
+}
+
+.shows {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  background-color: wheat;
+  padding: 2px;
+  margin: 5px;
+}
+.showss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: wheat;
+  padding: 2px;
+  margin: 5px;
+}
+
+.head {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  color: rgb(143, 88, 182);
+  text-align: center;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
